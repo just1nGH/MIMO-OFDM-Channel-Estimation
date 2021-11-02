@@ -1,7 +1,10 @@
 # MIMO-OFDM-Channel-Estimation
 Channel Estimation for MIMO OFDM Systems (LSE&amp; MMSE)
 
-`function [h_hat,H_hat] = mimoOfdmChannelEst(rxSymbs,pilots,pilotPos,Nt,Nr,nFFT,nTaps,N0,estMethods)\\
+try out `example_run.m` to start
+
+```matlab
+function [h_hat,H_hat] = mimoOfdmChannelEst(rxSymbs,pilots,pilotPos,Nt,Nr,nFFT,nTaps,N0,estMethods)
 % estimate channels in MIMO-OFDM systems(LSE/MMSE)
 % rxSymbs - received symbols a  nFFT X 1 vector
 % pilots - pilot symbols, a nP X 1 vector, nP isnumber of pilots
@@ -14,6 +17,7 @@ Channel Estimation for MIMO OFDM Systems (LSE&amp; MMSE)
 % estMethods: 'LSE' or 'MSE'
 % h_hat -  estimated channel impulse response
 % H_hat - estimated channel frequency response`
+```
 
 [ref] I. Barhumi, G. Leus and M. Moonen, 
 "Optimal training design for MIMO OFDM systems in mobile wireless channels," 
