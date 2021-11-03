@@ -1,6 +1,8 @@
 # MIMO-OFDM-Channel-Estimation
 Channel Estimation for MIMO OFDM Systems (LSE&amp; MMSE)
 
+![block-diagram](Aux/block_diagram.png)
+
 try out `example_run.m` to start
 
 ```matlab
