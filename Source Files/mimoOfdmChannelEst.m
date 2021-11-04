@@ -1,6 +1,6 @@
 function [h_hat,H_hat] = mimoOfdmChannelEst(rxSymbs,pilots,pilotPos,Nt,Nr,nFFT,nTaps,N0,estMethods)
 % estimate channels in MIMO-OFDM systems(LSE/MMSE)
-% rxSymbs - received symbols a  nFFT X 1 vector
+% rxSymbs - received symbols a  nFFT X Nr vector
 % pilots - pilot symbols, a nP X 1 vector, nP isnumber of pilots
 % pilotPos - positions of pilots a nP X 1 vector, 
 % Nt -  number of transmit antennas
